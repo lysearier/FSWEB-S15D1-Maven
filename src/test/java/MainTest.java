@@ -129,7 +129,7 @@ public class MainTest {
         assertEquals(mobilePhone.getMyContacts().size(),4);
     }
 
-    @DisplayName("removeNewContact methodu doğru çalışıyor mu?")
+    @DisplayName("removeContact methodu doğru çalışıyor mu?")
     @Test
     public void testRemoveContact()  {
         Contact contact = new Contact("Test", "12345678");
